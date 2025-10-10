@@ -69,8 +69,8 @@ RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_
 ##
 # dbt-redshift
 ##
-FROM base as dbt-redshift
-RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_redshift_ref}#egg=dbt-redshift"
+# FROM base as dbt-redshift
+# RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_redshift_ref}#egg=dbt-redshift"
 
 
 ##
@@ -83,8 +83,8 @@ RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_
 ##
 # dbt-snowflake
 ##
-FROM base as dbt-snowflake
-RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_snowflake_ref}#egg=dbt-snowflake"
+# FROM base as dbt-snowflake
+# RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_snowflake_ref}#egg=dbt-snowflake"
 
 ##
 # dbt-spark
