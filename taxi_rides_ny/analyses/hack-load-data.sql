@@ -29,8 +29,7 @@ ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.yellow_tripdata`
   RENAME COLUMN imp_surcharge TO improvement_surcharge;
 ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.yellow_tripdata`
   RENAME COLUMN pickup_location_id TO PULocationID;
-ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.yellow_tripdata`
-  RENAME COLUMN dropoff_location_id TO DOLocationID;
+
 
   -- Fixes green table schema
 ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.green_tripdata`
@@ -45,5 +44,3 @@ ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.green_tripdata`
   RENAME COLUMN imp_surcharge TO improvement_surcharge;
 ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.green_tripdata`
   RENAME COLUMN pickup_location_id TO PULocationID;
-ALTER TABLE `taxi-rides-ny-339813-412521.trips_data_all.green_tripdata`
-  RENAME COLUMN dropoff_location_id TO DOLocationID;
