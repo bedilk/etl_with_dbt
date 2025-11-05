@@ -17,7 +17,7 @@ FROM --platform=$build_for python:3.9.9-slim-bullseye as base
 ARG dbt_core_ref=dbt-core@v1.0.1
 ARG dbt_postgres_ref=dbt-core@v1.0.1
 ARG dbt_redshift_ref=dbt-redshift@v1.0.0
-ARG dbt_bigquery_ref=dbt-bigquery@v1.0.0
+# ARG dbt_bigquery_ref=dbt-bigquery@v1.0.0
 ARG dbt_snowflake_ref=dbt-snowflake@v1.0.0
 ARG dbt_spark_ref=dbt-spark@v1.0.0
 # special case args
